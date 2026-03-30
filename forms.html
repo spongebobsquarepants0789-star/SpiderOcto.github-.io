@@ -1,0 +1,22 @@
+<html>
+    <h2>Contact Form</h2>
+    <form action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <h2>Survey Form</h2>
+        <p>How did you find this site?</p>
+        <input type="radio" id="social" name="source" value="social">
+        <label for="social">Social Media</label><br>
+
+        <label for="rating">Rate the site</label>
+        <select id="rating" name="rating">
+            <option value="5">Excellent</option>
+            <option value="1">Know your #^@%#@$ place. The TRASH!</option>
+        </select><br>
+
+        <button type="submit">Submit</button>
+    </form>
